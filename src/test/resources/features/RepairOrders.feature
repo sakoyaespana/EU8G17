@@ -8,7 +8,7 @@ Feature:   Repair Order Functionality
     And the user sees the dashboard
     And the user clicks the Repairs module
     Then the user is on the repair order page
-@TWL-348   @smoke
+@TWL-348
   Scenario: Kanban view of repairs
     When the user clicks the kanban button
     Then the user views the repair orders in kanban format

@@ -1,5 +1,4 @@
-@smoke
-@TWL-361
+
 Feature: Creating new Products
   User story: As a POS Manager I should be able to create SALES/Products
 
@@ -9,7 +8,6 @@ Feature: Creating new Products
     Given user enters username and password as posmanager
      Given user clicks on sale button
 
-  @TWL-354
     Scenario: User should be able to create new Sales Products
            When user clicks products button
            And user clicks create button on product
@@ -17,7 +15,7 @@ Feature: Creating new Products
           Then user clicks save button for product
           Then product is saved successfully
 
-     @TWL-349
+
       Scenario: User should be able to discard changes for creating new product
         Given user is on product dashboard
         Then user clicks create button for product
@@ -27,7 +25,6 @@ Feature: Creating new Products
 
 
 
-        @TWL-351
         Scenario: User should be able to switch Kanban-List view
           Given user is on products list dashboard
           Then user clicks on kanban button for product
@@ -37,7 +34,6 @@ Feature: Creating new Products
 
 
 
-         @TWL-352
           Scenario: User should be able to  edit a products
             Given user search for the product
             And user clicks edit button for product

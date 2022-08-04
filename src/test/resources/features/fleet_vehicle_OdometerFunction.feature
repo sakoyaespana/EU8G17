@@ -6,7 +6,7 @@ Feature: As a user I should Verify that I can create a new Odometer function
     Given user writes username and password
     Then user click on Fleet module
 
-  @roksi
+
   Scenario: create new Vehicle Odometer Function
     When user click on the left side of page button Vehicle Odometer
     And User Click on the create button.

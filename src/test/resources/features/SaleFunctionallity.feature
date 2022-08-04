@@ -1,6 +1,4 @@
-@smoke
-@regression
-@test
+
 Feature:Sale Functionality
   As a Sales Manager, I should be able to create and edit a new customer from "Sales" module
   Every button must be functi at the sale stage while I use the module as a posmanager

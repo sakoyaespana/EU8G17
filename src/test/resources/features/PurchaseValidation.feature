@@ -1,6 +1,6 @@
 Feature: Manager should be able to create new PURCHASE - Vendor Bill
 
-  @bill
+
   Scenario Outline: Verify user is able to create a vendor bill
     Given user is in login page
     When user enters username "posmanager105@info.com" and password "posmanager"

@@ -8,7 +8,7 @@ Feature: POS Manager should be able to create new Point Of Sale Configuration
     And user clicks on Point of Sale on the Navigation Bar
     Then user clicks Point of Sale on the Dashboard
 
-  @taulant
+
   Scenario: Verification of POS Manager being able to create new  Point Of Sale
     When User clicks create button
     And User fills at least the minimum required field with information

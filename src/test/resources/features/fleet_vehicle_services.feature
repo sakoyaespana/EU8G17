@@ -15,7 +15,6 @@ Feature: Centrilli app vehicles services log feature
     And user click save button
     Then user verify pages title
 
-  @vilson
   Scenario: create new Vehicle Service Log by clicking discard
     When user save the amount of vehicle services
     And user click in create button
