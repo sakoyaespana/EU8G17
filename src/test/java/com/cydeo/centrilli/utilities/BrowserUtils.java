@@ -245,6 +245,7 @@ import java.util.Set;
                     return ((JavascriptExecutor) driver).executeScript("return document.readyState").equals("complete");
                 }
             };
+
             try {
                 WebDriverWait wait = new WebDriverWait(Driver.getDriver(), timeOutInSeconds);
                 wait.until(expectation);
