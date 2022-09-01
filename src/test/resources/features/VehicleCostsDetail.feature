@@ -1,9 +1,8 @@
 
-
+@TWL-239 @sa
 Feature: Vehicle Costs Detail Functionality
 
   Background:
-
         Given the user is on the login page
           And the user logins with valid username and password
           And the user sees the dashboard
@@ -13,8 +12,8 @@ Feature: Vehicle Costs Detail Functionality
           And the user clicks the create button
          Then the user lands on Vehicle Costs New page
 
-
-  Scenario:
+@TWL-376  @smoke
+Scenario: Create a vehicle costs as a pos-manager
            When the user clicks the vehicle dropdown-menu
            And the user selects search more option
            And the user chooses one of the vehicle options
