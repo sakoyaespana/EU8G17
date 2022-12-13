@@ -106,7 +106,7 @@ public class VehicleCostsDetail_StepDefinition {
 
     @Then("the user sees cost details for the chosen vehicle.")
     public void theUserSeesCostDetailsForTheChosenVehicle() {
-       BrowserUtils.waitFor(5);
+     //  BrowserUtils.waitFor(5);
      //  BrowserUtils.waitForClickablility(vehicleCostsDetails_page.editBTM,10);
        vehicleCostsDetails_page.editBTM.isDisplayed();
 
